@@ -7,5 +7,7 @@ It consists of a pure php API (No framework) with accompanying SQL queries (No O
 
 ## Usage:  
 `https://[api-server-address]/api.php?op=[desired_operation][&key=value]`  
-  
-Where `[&key=value]` represents a list of parameters in that format depending on what the given operation expects.
+Where `[&key=value]` represents a list of parameters in that format depending on what the given request expects.
+
+# java-consumer  
+This directory contains the supporting java SDK I developed for use by the android team.
